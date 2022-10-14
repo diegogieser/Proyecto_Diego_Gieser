@@ -4,10 +4,6 @@
  * and open the template in the editor.
  */
 package com.porfoliodrg.drg.Controller;
-
-import com.porfoliodrg.drg.Dto.dtoExperiencia;
-import com.porfoliodrg.drg.Entity.Experiencia;
-import com.porfoliodrg.drg.Security.Controller.Mensaje;
 import com.porfoliodrg.drg.Dto.dtoExperiencia;
 import com.porfoliodrg.drg.Entity.Experiencia;
 import com.porfoliodrg.drg.Security.Controller.Mensaje;
@@ -30,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/explab")
 @CrossOrigin(origins = "http://localhost:4200")
-
+//@CrossOrigin(origins = "https://frntend-drg-prueba.web.app")
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;
