@@ -3,7 +3,21 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  firebase: {
+    projectId: 'frntend-drg-prueba',
+    appId: '1:565189939586:web:d1aa00f0d96ce030ceff9b',
+    storageBucket: 'frntend-drg-prueba.appspot.com',
+    locationId: 'southamerica-east1',
+    apiKey: 'AIzaSyCZ6WwiXyceFPxTi9DVsly0ds0kCEPHzGo',
+    authDomain: 'frntend-drg-prueba.firebaseapp.com',
+    messagingSenderId: '565189939586',
+  },
+  production: false,
+  //Para pruebas locales
+  URL: 'http://localhost:8080/',
+  //Para Produccion
+  //URL: 'https://bknd-drg-prueba.herokuapp.com/'
+
 };
 
 /*

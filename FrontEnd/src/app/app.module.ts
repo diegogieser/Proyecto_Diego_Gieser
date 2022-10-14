@@ -19,6 +19,16 @@ import { LoginComponent } from './component/login/login.component';
 import { FormsModule }   from '@angular/forms';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+import { EditSkillComponent } from './components/hardskill/edit-skill.component';
+import { NewSkillComponent } from './components/hardskill/new-skill.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
+import { EditacercadeComponent } from './components/acerca-de/editacercade.component';
+import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
+import { NewEducacionComponent } from './components/educacion/new-educacion.component';
 
 
 
@@ -38,7 +48,12 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     HomeComponent,
     LoginComponent,
     NewExperienciaComponent,
-    EditExperienciaComponent
+    EditExperienciaComponent,
+    EditSkillComponent,
+    NewSkillComponent,
+    EditacercadeComponent,
+    EditEducacionComponent,
+    NewEducacionComponent
     
   ],
   imports: [
@@ -46,7 +61,11 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgxNavbarModule,
+    BrowserAnimationsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
   ],
   providers: [],
   bootstrap: [AppComponent]
