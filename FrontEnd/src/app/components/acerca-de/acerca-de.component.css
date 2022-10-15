@@ -1,8 +1,11 @@
 .row {
     padding: 10px;
+    height: 100%;
+    width: 100%;
 }
 div {
     background-color: rgb(117, 177, 154);
+    
 }
 /*Estilo foto de perfil*/
 @media (min-width: 575px){
@@ -22,7 +25,7 @@ div {
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 31%;
-        top: 350px;
+        top: 280px;
     }
 }
 /*Estilo id:nombre*/

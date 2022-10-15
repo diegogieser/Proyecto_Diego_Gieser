@@ -1,16 +1,25 @@
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
+}
+.row{
+    height: 100%;
+    width: 100%;
 }
 .redes {
-    margin-right: 0.5em;
+    margin-right: 1.5em;
+    
 }
+
 #logoPF{
-    width: 150px;
+    width: 110px;
 }
 img{
-    width: 50px;
+    width: 35px;
 }
 .btn {
     border-width: medium;

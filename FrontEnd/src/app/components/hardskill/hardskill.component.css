@@ -1,4 +1,7 @@
 .row {
     background-color: rgb(117, 177, 154);
     padding: 20px;
+    height: 100%;
+    width: 100%;
+
 }

@@ -1,7 +1,10 @@
 .row {
     background-color: rgb(117, 177, 154);
-    padding: 20px;
+   
+    height: 100%;
+    width: 100%;
 }
+
 footer {
     color: #fefefe;
     font-size: 14px;
@@ -9,4 +12,7 @@ footer {
     flex-direction: column;
     text-align: center;
     box-shadow: 2px -2px 5px #999;
+
+
+
 }
