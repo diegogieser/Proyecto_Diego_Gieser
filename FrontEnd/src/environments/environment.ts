@@ -14,9 +14,9 @@ export const environment = {
   },
   production: false,
   //Para pruebas locales
-  URL: 'http://localhost:8080/',
+  //URL: 'http://localhost:8080/',
   //Para Produccion
-  //URL: 'https://bknd-drg-prueba.herokuapp.com/'
+  URL: 'https://bknd-argentina-arograma.herokuapp.com/'
 
 };
 
