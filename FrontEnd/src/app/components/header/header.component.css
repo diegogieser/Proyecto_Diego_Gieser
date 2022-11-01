@@ -1,4 +1,4 @@
 .row{
     height: 100%;
-    width: 100%;
+    --bs-gutter-x: 0rem;
 }

@@ -4,19 +4,19 @@
 
 export const environment = {
   firebase: {
-    projectId: 'frntend-drg-prueba',
-    appId: '1:565189939586:web:d1aa00f0d96ce030ceff9b',
-    storageBucket: 'frntend-drg-prueba.appspot.com',
+    projectId: 'frntend-drg-prueba-3a2d9',
+    appId: '1:1081168900780:web:9d1d826e283233f696e509',
+    storageBucket: 'frntend-drg-prueba-3a2d9.appspot.com',
     locationId: 'southamerica-east1',
-    apiKey: 'AIzaSyCZ6WwiXyceFPxTi9DVsly0ds0kCEPHzGo',
-    authDomain: 'frntend-drg-prueba.firebaseapp.com',
-    messagingSenderId: '565189939586',
+    apiKey: 'AIzaSyAwVPMn8-wdCbzxKVjh8wNG0LAlCFYU9Zc',
+    authDomain: 'frntend-drg-prueba-3a2d9.firebaseapp.com',
+    messagingSenderId: '1081168900780',
   },
   production: false,
   //Para pruebas locales
-  URL: 'http://localhost:8080/',
+  //URL: 'http://localhost:8080/',
   //Para Produccion
-  //URL: 'https://bknd-drg-prueba.herokuapp.com/'
+  URL: 'https://bknd-drg-prueba.herokuapp.com/'
 
 };
 

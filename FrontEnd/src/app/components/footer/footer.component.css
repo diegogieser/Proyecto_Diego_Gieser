@@ -1,6 +1,6 @@
 .row {
     background-color: rgb(117, 177, 154);
-   
+    --bs-gutter-x: 0rem;
     height: 100%;
     width: 100%;
 }

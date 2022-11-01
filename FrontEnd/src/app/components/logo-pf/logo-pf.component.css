@@ -1,14 +1,16 @@
 
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
+    
 
 }
 .row{
     height: 100%;
-    width: 100%;
+    --bs-gutter-x: 0rem;
 }
 .redes {
     margin-right: 1.5em;

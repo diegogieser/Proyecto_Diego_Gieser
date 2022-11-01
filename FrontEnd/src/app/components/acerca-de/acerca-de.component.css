@@ -1,10 +1,25 @@
 .row {
-    padding: 10px;
-    height: 100%;
-    width: 100%;
+    
+        padding: 20px;
+        border-style: inset;
+        height: 100%;
+        --bs-gutter-x: 0rem;
+     /* fallback for old browsers */
+     background: #504b51c2;
+    
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to right, rgb(0, 237, 245), rgb(37, 252, 180));
+     
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradientto right, rgb(0, 247, 255), rgb(37, 252, 180)
 }
 div {
-    background-color: rgb(117, 177, 154);
+    background-color: rgba(117, 177, 144, 0.271);
+   
+        height: auto;
+       
+    
+    
     
 }
 /*Estilo foto de perfil*/
@@ -15,7 +30,7 @@ div {
         height: auto;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;       
-        top: -51px;
+        top: -80px;
     }
 }
 @media (max-width: 575px){
@@ -25,13 +40,14 @@ div {
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 31%;
-        top: 280px;
+        top: 250px;
     }
 }
 /*Estilo id:nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 30%;
+    
     
 }
 

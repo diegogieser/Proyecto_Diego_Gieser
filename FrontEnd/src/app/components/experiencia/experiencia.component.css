@@ -2,11 +2,13 @@
     padding: 20px;
     border-style: inset;
     height: 100%;
-    width: 100%;
+    --bs-gutter-x: 0rem;
+    
 }
 
 div {
     background: rgb(117, 177, 154);
+    height: auto;
 }
 h1, h3 {
     display: inline;

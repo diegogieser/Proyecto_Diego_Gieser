@@ -29,6 +29,10 @@ import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 import { NewEducacionComponent } from './components/educacion/new-educacion.component';
+import { NgParticlesModule } from "ng-particles";
+
+
+
 
 
 
@@ -65,7 +69,10 @@ import { NewEducacionComponent } from './components/educacion/new-educacion.comp
     NgxNavbarModule,
     BrowserAnimationsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage())
+    provideStorage(() => getStorage()),
+    NgParticlesModule,
+    
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
